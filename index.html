@@ -6,25 +6,27 @@
     <title>Akshay's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/logo for website.png">
+    <script src="https://kit.fontawesome.com/0437e7af9e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1 class="akshay-title" style="font-family: Oswald-VariableFont;"><b>AKSHAY</b></h1>
+        <h1 class="akshay-title" style="font-family: Oswald-VariableFont; font-size: 50px; font-weight: 500;"><b>AKSHAY</b></h1>
         <nav class="newpagelinks">
             <!--Note, <nav> tag is used purely for organization & accessibility-->
-            <a href="#home">Home</a>
-            <a href="#about-me">About me</a>
-            <a href="#my-hobbies">My Hobbies</a>
-            <a href="#socials">Connect with me</a>
-            <a href="#references">References used to make this website</a>
+            <a href="#home" style="color: black;">HOME</a>
+            <a href="#about-me" style="color: black;">ABOUT ME</a>
+            <a href="#my-hobbies" style="color: black;">MY HOBBIES</a>
+            <a href="#socials" style="color: black;">NETWORKS</a>
+            <a href="#references" style="color: black;">References used for making</a>
         </nav>
-        <button class="theme-button">Dark Mode</button>
-        <span><img class="akshayphoto" src="images/Akshay Casual.jpg" alt="An image of Akshay" width="175" title="I am Akshay!"></span>
     </header>
 
     <section id="home">
-        <h2>Hi, I'm Akshay, and I go by the motto: "With great coding knowledge comes the great hairfall"</h2>
-        <p>But seriously, please check out the website and leave any suggestions for me to improve! Thank you!</p>
+        <img class="akshayphoto" src="images/Akshay Casual.jpg" alt="An image of Akshay" width="175" title="I am Akshay!">
+        <div id="home-text">
+            <h2>Hi, I'm Akshay, and I go by the motto: "With great coding knowledge comes the great hairfall"</h2>
+            <p>My website might not be the most visually appealing, but I did try to implement the JavaScript logic for switching between sections instead of using multiple separate webpages. Please check it out and feel free to leave any suggestions for improvement. Thank you! (Also, try clicking a navigation link twice!)</p>
+        </div>
     </section>
 
     <section id="about-me">
@@ -38,10 +40,29 @@
     </section>
 
     <section id="socials">
-        <h2>If you are interested by this project, check out my (upcoming) projects too!</h2>
-        <a href="https://www.github.com/akshxy-10">GitHub</a>
-        <a href="https://www.linkedin.com/in/akshxy10">LinkedIn</a>
-        <a href="mailto:as0662@srmist.edu.in">Official College Email</a>
+        <h2>If you like this project, please check out my other [upcoming] projects too!</h2>
+        <a href="https://www.github.com/akshxy-10" target="_blank">
+            <i class="fa-brands fa-github fa-5x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/akshxy10" target="_blank">
+            <i class="fa-brands fa-linkedin fa-5x"></i>
+        </a>
+        <a href="mailto:as0662@srmist.edu.in" target="_blank">
+            <i class="fa-solid fa-envelope fa-5x"></i>
+        </a>
+    </section>
+
+    <section id="references">
+        <h2>I Have used the available online resources to do the best I can!</h2>
+        <a href="https://www.w3schools.com/" target="_blank">
+            <i class="fa-solid fa-code fa-5x"></i>
+        </a>
+        <a href="https://www.geeksforgeeks.org/" target="_blank">
+            <i class="fa-regular fa-file-code fa-5x"></i>
+        </a>
+        <a href="https://www.youtube.com/@BroCodez" target="_blank">
+            <i class="fa-brands fa-youtube fa-5x"></i>
+        </a>
     </section>
 
     <script src="script.js"></script>

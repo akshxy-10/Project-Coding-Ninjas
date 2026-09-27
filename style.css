@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 30px;
 }
 
 
@@ -41,8 +42,42 @@ header{
     gap: 100px;
 }
 
-.theme-button{
-    border-radius: 5px;
-    padding: 5px;
-    align-self: self-end
+
+#home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#about-me{
+    display: none;
+    text-align: center;
+    font-family: Oswald-VariableFont;
+}
+
+#my-hobbies{
+    display: none;
+    text-align: center;
+    font-family: Oswald-VariableFont;
+}
+
+#socials{
+    display: flex;
+    display: none;
+    text-align: center;
+    font-family: Oswald-VariableFont;
+}
+
+#home-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Oswald-VariableFont;
+}
+
+#references{
+    display: none;
+    text-align: center;
+    font-family: Oswald-VariableFont;
 }
