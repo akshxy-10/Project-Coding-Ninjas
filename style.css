@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Oswald-VariableFont;
+    src: url("fonts/Oswald-VariableFont_wght.ttf");
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.akshayphoto{
+    border: 3px solid rgb(255, 0, 0); 
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+.akshay-title{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.newpagelinks{
+    font-family: Oswald-VariableFont;
+
+    display: flex;
+    /* Display flex allows the parent HTML to apply flexible box layout model*/
+    
+    justify-content: center;
+    /*justify content defines how the browser distributes space between and around content items along the main axis*/
+
+    align-items: flex-start;
+
+    gap: 100px;
+}
+
+.theme-button{
+    border-radius: 5px;
+    padding: 5px;
+    align-self: self-end
+}
