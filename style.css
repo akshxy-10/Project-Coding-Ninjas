@@ -83,3 +83,10 @@ header{
     text-align: center;
     font-family: Oswald-VariableFont;
 }
+
+#versions{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Oswald-VariableFont;
+}
